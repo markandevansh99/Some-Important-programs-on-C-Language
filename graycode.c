@@ -25,3 +25,15 @@ int grayconversion(int binary)
     return answer;
 }
 
+// main function
+
+int main ()
+{
+    int binary, graycode;
+
+    printf(" Enter a binary number: ");
+    scanf("%d", &binary);
+    graycode = grayconversion(binary);
+    printf("The gray code of %d is %d\n", binary, graycode);
+    return 0;
+}
